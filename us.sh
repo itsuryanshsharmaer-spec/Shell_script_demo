@@ -2,14 +2,23 @@
 
 #System Name:
 echo "System:$(uname)"
-# Currently logged-in user:
-
-echo "Logged-in user:"
-who 
+# Currently logged-in user information:
+echo "Logged-in user information:"
+w 
 # Current user information:
 echo "user:$(whoami)"
+#User and groups information:
+echo "Users and groups information:"
+id
 
-# User and group:
+#Number of groups user belongs to:
+echo "Number of groups user belongs to:"
+
+groups surya
+
+#Iformation about files and directories:
+echo "Iformation about files and directories:"
+
 ls -l
 # Login history of users with duration:
 echo "Login history of users"
