@@ -21,7 +21,7 @@ echo "Iformation about files and directories:"
 
 ls -l
 # Login history of users with duration:
-echo "Login history of users"
+echo "Login history of users:"
 last
 
 # System information:
